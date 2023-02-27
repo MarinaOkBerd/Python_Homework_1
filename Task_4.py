@@ -6,7 +6,7 @@
 #24 -> 4  16  4
 #60 -> 10  40  10
 S = int(input("Введите число:"))
-count_p = round(S / 6)
-count_s = round(S / 6)
-count_k = round((S / 6 + S / 6) * 2)
+count_p = S // 6
+count_s = S // 6
+count_k = (S // 6 + S // 6) * 2
 print(f"{S} -> {count_p} {count_k} {count_s} ")
