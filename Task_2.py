@@ -6,7 +6,7 @@
 
 number = int(input("Введите трехзначное число:"))
 a = number // 100
-b = (number % 100) // 10
+b = number // 10 % 10
 c = number % 10
 result = a + b + c
 print(f"{number} -> {result} ({a} + {b} + {c})")
